@@ -1,207 +1,99 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 375px) {
 
-    /* Mulish font  */
-    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
 
+@media screen and (max-width: 375px) {
     * {
-        padding: 0;
-        margin: 0;
         box-sizing: border-box;
     }
 
 
+    /* body {
+        background-color: red;
+    } */
 
-    .col-s-1 {
-        width: 8.33%;
-    }
-
-    .col-s-2 {
-        width: 16.66%;
-    }
-
-    .col-s-3 {
-        width: 25%;
-    }
-
-    .col-s-4 {
-        width: 33.33%;
-    }
-
-    .col-s-5 {
-        width: 41.66%;
-    }
-
-    .col-s-6 {
-        width: 50%;
-    }
-
-    .col-s-7 {
-        width: 58.33%;
-    }
-
-    .col-s-8 {
-        width: 66.66%;
-    }
-
-    .col-s-9 {
-        width: 75%;
-    }
-
-    .col-s-10 {
-        width: 83.33%;
-    }
-
-    .col-s-11 {
-        width: 91.66%;
-    }
-
-    .col-s-12 {
-        width: 100%;
-    }
-
-    body {
-        font-family: 'Mulish', sans-serif;
-
-    }
-
-
-    .s_p_light {
-        color: rgba(19, 19, 24, 0.70);
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-    }
-
-    .s_heading {
-        color: #131318;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
-
-    .hidden {
-        display: none;
-    }
-
-
-
-
-
-
-    .header_containar,
-    main {
-        width: 375px;
-        margin: 0 auto;
-    }
-
-
-    .nav {
-        flex-direction: column;
-        padding: 12px 0;
-        align-items: flex-start;
-    }
-    
-    .logo>h1 {
-        color: #131318;
-    font-size: 21.543px;
-    text-align: left;
-    margin: 20px;
-    }
-    
-    .logo>h1>span>img {
-        width: 28.724px;
-    height: 33.516px;
-    }
-
-
-
-
-
-
-
-
-
-
-    /* Popular Tours  */
     .popular_tour_container {
         flex-direction: column;
-        margin: 10px 0 10px 0;
-        height: 452px;
+        gap: 30px;
+        margin: 0;
+        height: auto;
     }
 
     .popular_tour_content {
-        padding: 20px 20px 0 20px;
+        padding: 0 20px;
     }
 
     .popular_tour_content>h2 {
-        margin: 24px 0 16px 0px;
-        font-size: 20px;
+        margin-bottom: 20px;
     }
-
     .popular_tour_img>img {
+        width: 100%;
+        height: auto;
         padding: 20px;
     }
 
- /* Choose Your Destination */
-
-
-  .choose_destination_photo_gallery {
-    gap: 16px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(7, 176px);
-    transition: 0.9s;
-}
-
-
- #grid_photo_1 {
-    grid-column: 1 / span 12;
-}
-#grid_photo_2 {
-    grid-column: 1 / span 12;
-}
-
-#grid_photo_3 {
-    grid-column: 1 / span 12;
-}
-#grid_photo_4 {
-    grid-column: 1 / span 12;
-}
-#grid_photo_5 {
-    grid-column: 1 / span 12;
-}
-#grid_photo_6 {
-    grid-column: 1 / span 12;
-}
-#grid_photo_7 {
-    grid-column: 1 / span 12;
-}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    .color_red {
-        color: red;
+    .grid_photo {
+        background-size: cover;
+        object-fit: cover;
+        height: 300px;
     }
 
 
+    .choose_destination_photo_gallery {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        transition: 0.9s;
+        gap: 30px;
+    }
+
+    #grid_photo_1 {
+        grid-column: 1 / span 12;
+        grid-row: 1 / -1;
+    }
+    #grid_photo_2 {
+        grid-column: 1 / span 12;
+        grid-row: 2 / -2;
+    }
+    #grid_photo_3 {
+        grid-column: 1 / span 12;
+       
+        
+    }
+    #grid_photo_4 {
+        grid-column: 1 / span 12;
+        
+    }
+    
+    #grid_photo_5 {
+        grid-column: 1 / span 12;
+        
+    }
+    
+    #grid_photo_6 {
+        grid-column: 1 / span 12;
+        
+    }
+    
+    #grid_photo_7 {
+        grid-column: 1 / span 12;
+        
+    }
+    
 
 
+    /* Newsletter section code  */
 
-
+.newsletter_section {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    display: block;
+}
 
 
 

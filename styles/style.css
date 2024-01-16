@@ -300,12 +300,13 @@ input[type=submit] {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    width: 100%;
 }
 
 .grid_photo:hover {
-    color: red;
-    background-color: red;
+    color: var(--primary_color);
     background-position: top;
+    transition: 0.7s;
 }
 
 
