@@ -490,7 +490,19 @@ input[type=submit] {
 
 
 
+
+
+
 /* perfect place section  */
+
+.popular_tour_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
 
 .pefect_place_section ul {
     margin-bottom: 30px;
@@ -621,6 +633,8 @@ input[type=button] {
     border-radius: 16px;
     object-fit: cover;
 }
+
+
 
 
 
