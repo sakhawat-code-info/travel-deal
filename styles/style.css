@@ -502,7 +502,6 @@ input[type=submit] {
     justify-content: space-between;
     gap: 30px;
     align-items: center;
-    margin-bottom: 55px;
 }
 
 
@@ -537,10 +536,9 @@ input[type=submit] {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    margin: 33px 0 100px 0;
+    margin: 33px 0 71px 0;
     height: 422px;
 }
-
 .newsletter_content {
     padding: 30px;
 
